@@ -18,7 +18,7 @@ app.post('/api/fetchWeather', (req, res, next) => {
       .catch(next)
   }
   else {
-    res.send({error: "Invalid city name."})
+    res.send({"cod":"400","message":"No valid city provided"})
   }
 })
 
