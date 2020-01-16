@@ -246,8 +246,8 @@ Let's build our input, button, and main UI and tie them up with state.
 
 I'm going to use hooks because they're fantastic, but see if you can do this using class components and this.state without looking at my code.
 
-The main thing here is that you will want a function that you use in your App.js to hit the endpoint of out server posting the city that is inside the input.
+The main thing here is that you will want a function that you use in your App.js to hit the endpoint of our server POSTing the city that is the value of our input.
 
 Don't have much time to wrap this up, feel free to check my "frontend" branch for the solution, and if you have any questions just hit my line, yo.
 
-## 🍻
+## 🍻 ALWAYS REMEMBER TO HAVE NODE RUNNING IN ONE WINDOW AND NPM START IN ANOTHER 🍻
